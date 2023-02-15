@@ -30,3 +30,4 @@ describe('Generate table app', () => {
     cy.get('tbody').contains('jan-van-brussel-1714').should('not.exist');
   });
 });
+
